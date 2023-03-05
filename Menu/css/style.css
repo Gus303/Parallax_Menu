@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Esse é o codigo para fazer o efeito parallax*/
+    background-attachment: fixed;
+}
+/* Esse é para selecionar quais sections vamos colocar as imagens */
+section:nth-of-type(2){
+    background-image: url(img/img1.jpg);
+}
+
+section:nth-of-type(4){
+    background-image: url(img/img2.jpg);
+}
+
+section:nth-of-type(6){
+    background-image: url(img/img3.jpg);
+}
+
+section:nth-of-type(8){
+    background-image: url(img/img4.jpg);
+}
